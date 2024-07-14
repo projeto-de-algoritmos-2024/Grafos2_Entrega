@@ -4,10 +4,10 @@
 **Conteúdo da Disciplina**: Grafos 2<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 211029540  |  Pedro Sena Barbosa Holtz Yen |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula | Aluno                        |
+| --------- | ---------------------------- |
+| 211039250 | Arthur Grandão de Mello      |
+| 211029540 | Pedro Sena Barbosa Holtz Yen |
 
 ## Sobre 
 
