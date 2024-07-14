@@ -1,0 +1,302 @@
+{
+    "nodes": [
+        {
+            "number": 1,
+            "neighbors": [
+                { "neighbor": 2, "weight": 1 },
+                { "neighbor": 10, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 2,
+            "neighbors": [
+                { "neighbor": 1, "weight": 1 },
+                { "neighbor": 3, "weight": 1 }
+            ],
+            "houses": [1, 7]
+        },
+        {
+            "number": 3,
+            "neighbors": [
+                { "neighbor": 2, "weight": 1 },
+                { "neighbor": 4, "weight": 1 }
+            ],
+            "houses": [2, 8]
+        },
+        {
+            "number": 4,
+            "neighbors": [
+                { "neighbor": 3, "weight": 1 },
+                { "neighbor": 5, "weight": 1 }
+            ],
+            "houses": [3, 9]
+        },
+        {
+            "number": 5,
+            "neighbors": [
+                { "neighbor": 4, "weight": 1 },
+                { "neighbor": 6, "weight": 1 },
+                { "neighbor": 14, "weight": 3 }
+            ],
+            "houses": []  
+        },
+        {
+            "number": 6,
+            "neighbors": [
+                { "neighbor": 5, "weight": 1 },
+                { "neighbor": 7, "weight": 1 }
+            ],
+            "houses": [4, 10]
+        },
+        {
+            "number": 7,
+            "neighbors": [
+                { "neighbor": 6, "weight": 1 },
+                { "neighbor": 8, "weight": 1 }
+            ],
+            "houses": [5, 11]
+        },
+        {
+            "number": 8,
+            "neighbors": [
+                { "neighbor": 7, "weight": 1 },
+                { "neighbor": 9, "weight": 1 }
+            ],
+            "houses": [6, 12]
+        },
+        {
+            "number": 9,
+            "neighbors": [
+                { "neighbor": 8, "weight": 1 },
+                { "neighbor": 18, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 10,
+            "neighbors": [
+                { "neighbor": 1, "weight": 3 },
+                { "neighbor": 11, "weight": 1 },
+                { "neighbor": 19, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 11,
+            "neighbors": [
+                { "neighbor": 10, "weight": 1 },
+                { "neighbor": 12, "weight": 1 }
+            ],
+            "houses": [13, 19]
+        },
+        {
+            "number": 12,
+            "neighbors": [
+                { "neighbor": 11, "weight": 1 },
+                { "neighbor": 13, "weight": 1 }
+            ],
+            "houses": [14, 20]
+        },
+        {
+            "number": 13, 
+            "neighbors": [
+                { "neighbor": 12, "weight": 1 },
+                { "neighbor": 14, "weight": 1 }
+            ],
+            "houses": [21]
+        },
+        {
+            "number": 14,
+            "neighbors": [
+                { "neighbor": 13, "weight": 1 },
+                { "neighbor": 5, "weight": 3 },
+                { "neighbor": 15, "weight": 1 },
+                { "neighbor": 23, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 15,
+            "neighbors": [
+                { "neighbor": 14, "weight": 1 },
+                { "neighbor": 16, "weight": 1 }
+            ],
+            "houses": [16, 22]
+        },
+        {
+            "number": 16,
+            "neighbors": [
+                { "neighbor": 15, "weight": 1 },
+                { "neighbor": 17, "weight": 1 }
+            ],
+            "houses": [17, 23]
+        },
+        {
+            "number": 17,
+            "neighbors": [
+                { "neighbor": 16, "weight": 1 },
+                { "neighbor": 18, "weight": 1 }
+            ],
+            "houses": [18, 24]
+        },
+        {
+            "number": 18,
+            "neighbors": [
+                { "neighbor": 17, "weight": 1 },
+                { "neighbor": 9, "weight": 3 },
+                { "neighbor": 27, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 19,
+            "neighbors": [
+                { "neighbor": 10, "weight": 3 },
+                { "neighbor": 20, "weight": 1 },
+                { "neighbor": 28, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 20,
+            "neighbors": [
+                { "neighbor": 19, "weight": 1 },
+                { "neighbor": 21, "weight": 1 }
+            ],
+            "houses": [25, 31]
+        },
+        {
+            "number": 21,
+            "neighbors": [
+                { "neighbor": 20, "weight": 1 },
+                { "neighbor": 22, "weight": 1 }
+            ],
+            "houses": [26, 32]
+        },
+        {
+            "number": 22,
+            "neighbors": [
+                { "neighbor": 21, "weight": 1 },
+                { "neighbor": 23, "weight": 1 }
+            ],
+            "houses": [27, 33]
+        },
+        {
+            "number": 23,
+            "neighbors": [
+                { "neighbor": 22, "weight": 1 },
+                { "neighbor": 14, "weight": 3 },
+                { "neighbor": 24, "weight": 1 },
+                { "neighbor": 32, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 24,
+            "neighbors": [
+                { "neighbor": 23, "weight": 1 },
+                { "neighbor": 25, "weight": 1 }
+            ],
+            "houses": [28, 34]
+        },
+        {
+            "number": 25,
+            "neighbors": [
+                { "neighbor": 24, "weight": 1 },
+                { "neighbor": 26, "weight": 1 }
+            ],
+            "houses": [29, 35]
+        },
+        {
+            "number": 26,
+            "neighbors": [
+                { "neighbor": 25, "weight": 1 },
+                { "neighbor": 27, "weight": 1 }
+            ],
+            "houses": [30, 36]
+        },
+        {
+            "number": 27,
+            "neighbors": [
+                { "neighbor": 26, "weight": 1 },
+                { "neighbor": 18, "weight": 3 },
+                { "neighbor": 36, "weight": 3 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 28,
+            "neighbors": [
+                { "neighbor": 19, "weight": 3 },
+                { "neighbor": 29, "weight": 1 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 29,
+            "neighbors": [
+                { "neighbor": 28, "weight": 1 },
+                { "neighbor": 30, "weight": 1 }
+            ],
+            "houses": [37, 43]
+        },
+        {
+            "number": 30,
+            "neighbors": [
+                { "neighbor": 29, "weight": 1 },
+                { "neighbor": 31, "weight": 1 }
+            ],
+            "houses": [38, 44]
+        },
+        {
+            "number": 31,
+            "neighbors": [
+                { "neighbor": 30, "weight": 1 },
+                { "neighbor": 32, "weight": 1 }
+            ],
+            "houses": [39, 45]
+        },
+        {
+            "number": 32,
+            "neighbors": [
+                { "neighbor": 31, "weight": 1 },
+                { "neighbor": 23, "weight": 3 },
+                { "neighbor": 33, "weight": 1 }
+            ],
+            "houses": []
+        },
+        {
+            "number": 33,
+            "neighbors": [
+                { "neighbor": 32, "weight": 1 },
+                { "neighbor": 34, "weight": 1 }
+            ],
+            "houses": [40, 46]
+        },
+        {
+            "number": 34,
+            "neighbors": [
+                { "neighbor": 33, "weight": 1 },
+                { "neighbor": 35, "weight": 1 }
+            ],
+            "houses": [41, 47]
+        },
+        {
+            "number": 35,
+            "neighbors": [
+                { "neighbor": 34, "weight": 1 },
+                { "neighbor": 36, "weight": 1 }
+            ],
+            "houses": [42, 48]
+        },
+        {
+            "number": 36,
+            "neighbors": [
+                { "neighbor": 35, "weight": 1 },
+                { "neighbor": 27, "weight": 3 }
+            ],
+            "houses": []
+        }
+    ]
+}
