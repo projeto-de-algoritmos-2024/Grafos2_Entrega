@@ -10,7 +10,7 @@ import json
 import sys
 import pygame
 
-
+FARMACY = 13
 nodes = []
 houses = [0 for _ in range(49)]
 
