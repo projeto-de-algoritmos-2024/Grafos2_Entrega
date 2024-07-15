@@ -6,7 +6,8 @@
                 { "neighbor": 2, "weight": 1 },
                 { "neighbor": 10, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [237, 137]
         },
         {
             "number": 2,
@@ -14,7 +15,8 @@
                 { "neighbor": 1, "weight": 1 },
                 { "neighbor": 3, "weight": 1 }
             ],
-            "houses": [1, 7]
+            "houses": [1, 7],
+            "position": [331, 137]
         },
         {
             "number": 3,
@@ -22,7 +24,8 @@
                 { "neighbor": 2, "weight": 1 },
                 { "neighbor": 4, "weight": 1 }
             ],
-            "houses": [2, 8]
+            "houses": [2, 8],
+            "position": [424, 137]
         },
         {
             "number": 4,
@@ -30,7 +33,8 @@
                 { "neighbor": 3, "weight": 1 },
                 { "neighbor": 5, "weight": 1 }
             ],
-            "houses": [3, 9]
+            "houses": [3, 9],
+            "position": [522, 137]
         },
         {
             "number": 5,
@@ -39,7 +43,8 @@
                 { "neighbor": 6, "weight": 1 },
                 { "neighbor": 14, "weight": 3 }
             ],
-            "houses": []  
+            "houses": [],
+            "position": [609, 137]
         },
         {
             "number": 6,
@@ -47,7 +52,8 @@
                 { "neighbor": 5, "weight": 1 },
                 { "neighbor": 7, "weight": 1 }
             ],
-            "houses": [4, 10]
+            "houses": [4, 10],
+            "position": [693, 137]
         },
         {
             "number": 7,
@@ -55,7 +61,8 @@
                 { "neighbor": 6, "weight": 1 },
                 { "neighbor": 8, "weight": 1 }
             ],
-            "houses": [5, 11]
+            "houses": [5, 11],
+            "position": [790, 137]
         },
         {
             "number": 8,
@@ -63,7 +70,8 @@
                 { "neighbor": 7, "weight": 1 },
                 { "neighbor": 9, "weight": 1 }
             ],
-            "houses": [6, 12]
+            "houses": [6, 12],
+            "position": [886, 137]
         },
         {
             "number": 9,
@@ -71,7 +79,8 @@
                 { "neighbor": 8, "weight": 1 },
                 { "neighbor": 18, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [964, 137]
         },
         {
             "number": 10,
@@ -80,7 +89,8 @@
                 { "neighbor": 11, "weight": 1 },
                 { "neighbor": 19, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [234, 366]
         },
         {
             "number": 11,
@@ -88,7 +98,8 @@
                 { "neighbor": 10, "weight": 1 },
                 { "neighbor": 12, "weight": 1 }
             ],
-            "houses": [13, 19]
+            "houses": [13, 19],
+            "position": [326, 366]
         },
         {
             "number": 12,
@@ -96,15 +107,17 @@
                 { "neighbor": 11, "weight": 1 },
                 { "neighbor": 13, "weight": 1 }
             ],
-            "houses": [14, 20]
+            "houses": [14, 20],
+            "position": [424, 366]
         },
         {
-            "number": 13, 
+            "number": 13,
             "neighbors": [
                 { "neighbor": 12, "weight": 1 },
                 { "neighbor": 14, "weight": 1 }
             ],
-            "houses": [21]
+            "houses": [21],
+            "position": [520, 366]
         },
         {
             "number": 14,
@@ -114,7 +127,8 @@
                 { "neighbor": 15, "weight": 1 },
                 { "neighbor": 23, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [608, 366]
         },
         {
             "number": 15,
@@ -122,7 +136,8 @@
                 { "neighbor": 14, "weight": 1 },
                 { "neighbor": 16, "weight": 1 }
             ],
-            "houses": [16, 22]
+            "houses": [16, 22],
+            "position": [693, 366]
         },
         {
             "number": 16,
@@ -130,7 +145,8 @@
                 { "neighbor": 15, "weight": 1 },
                 { "neighbor": 17, "weight": 1 }
             ],
-            "houses": [17, 23]
+            "houses": [17, 23],
+            "position": [789, 366]
         },
         {
             "number": 17,
@@ -138,7 +154,8 @@
                 { "neighbor": 16, "weight": 1 },
                 { "neighbor": 18, "weight": 1 }
             ],
-            "houses": [18, 24]
+            "houses": [18, 24],
+            "position": [885, 366]
         },
         {
             "number": 18,
@@ -147,7 +164,8 @@
                 { "neighbor": 9, "weight": 3 },
                 { "neighbor": 27, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [964, 366]
         },
         {
             "number": 19,
@@ -156,7 +174,8 @@
                 { "neighbor": 20, "weight": 1 },
                 { "neighbor": 28, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [234, 596]
         },
         {
             "number": 20,
@@ -164,7 +183,8 @@
                 { "neighbor": 19, "weight": 1 },
                 { "neighbor": 21, "weight": 1 }
             ],
-            "houses": [25, 31]
+            "houses": [25, 31],
+            "position": [328, 596]
         },
         {
             "number": 21,
@@ -172,7 +192,8 @@
                 { "neighbor": 20, "weight": 1 },
                 { "neighbor": 22, "weight": 1 }
             ],
-            "houses": [26, 32]
+            "houses": [26, 32],
+            "position": [424, 596]
         },
         {
             "number": 22,
@@ -180,7 +201,8 @@
                 { "neighbor": 21, "weight": 1 },
                 { "neighbor": 23, "weight": 1 }
             ],
-            "houses": [27, 33]
+            "houses": [27, 33],
+            "position": [520, 596]
         },
         {
             "number": 23,
@@ -190,7 +212,8 @@
                 { "neighbor": 24, "weight": 1 },
                 { "neighbor": 32, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [610, 596]
         },
         {
             "number": 24,
@@ -198,7 +221,8 @@
                 { "neighbor": 23, "weight": 1 },
                 { "neighbor": 25, "weight": 1 }
             ],
-            "houses": [28, 34]
+            "houses": [28, 34],
+            "position": [696, 596]
         },
         {
             "number": 25,
@@ -206,7 +230,8 @@
                 { "neighbor": 24, "weight": 1 },
                 { "neighbor": 26, "weight": 1 }
             ],
-            "houses": [29, 35]
+            "houses": [29, 35],
+            "position": [790, 596]
         },
         {
             "number": 26,
@@ -214,7 +239,8 @@
                 { "neighbor": 25, "weight": 1 },
                 { "neighbor": 27, "weight": 1 }
             ],
-            "houses": [30, 36]
+            "houses": [30, 36],
+            "position": [886, 596]
         },
         {
             "number": 27,
@@ -223,7 +249,8 @@
                 { "neighbor": 18, "weight": 3 },
                 { "neighbor": 36, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [965, 596]
         },
         {
             "number": 28,
@@ -231,7 +258,8 @@
                 { "neighbor": 19, "weight": 3 },
                 { "neighbor": 29, "weight": 1 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [235, 826]
         },
         {
             "number": 29,
@@ -239,7 +267,8 @@
                 { "neighbor": 28, "weight": 1 },
                 { "neighbor": 30, "weight": 1 }
             ],
-            "houses": [37, 43]
+            "houses": [37, 43],
+            "position": [329, 826]
         },
         {
             "number": 30,
@@ -247,7 +276,8 @@
                 { "neighbor": 29, "weight": 1 },
                 { "neighbor": 31, "weight": 1 }
             ],
-            "houses": [38, 44]
+            "houses": [38, 44],
+            "position": [426, 826]
         },
         {
             "number": 31,
@@ -255,7 +285,8 @@
                 { "neighbor": 30, "weight": 1 },
                 { "neighbor": 32, "weight": 1 }
             ],
-            "houses": [39, 45]
+            "houses": [39, 45],
+            "position": [522, 826]
         },
         {
             "number": 32,
@@ -264,7 +295,8 @@
                 { "neighbor": 23, "weight": 3 },
                 { "neighbor": 33, "weight": 1 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [610, 826]
         },
         {
             "number": 33,
@@ -272,7 +304,8 @@
                 { "neighbor": 32, "weight": 1 },
                 { "neighbor": 34, "weight": 1 }
             ],
-            "houses": [40, 46]
+            "houses": [40, 46],
+            "position": [694, 826]
         },
         {
             "number": 34,
@@ -280,7 +313,8 @@
                 { "neighbor": 33, "weight": 1 },
                 { "neighbor": 35, "weight": 1 }
             ],
-            "houses": [41, 47]
+            "houses": [41, 47],
+            "position": [790, 826]
         },
         {
             "number": 35,
@@ -288,7 +322,8 @@
                 { "neighbor": 34, "weight": 1 },
                 { "neighbor": 36, "weight": 1 }
             ],
-            "houses": [42, 48]
+            "houses": [42, 48],
+            "position": [886, 826]
         },
         {
             "number": 36,
@@ -296,7 +331,8 @@
                 { "neighbor": 35, "weight": 1 },
                 { "neighbor": 27, "weight": 3 }
             ],
-            "houses": []
+            "houses": [],
+            "position": [964, 826]
         }
     ]
 }
