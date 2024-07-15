@@ -5,7 +5,6 @@ import heapq
 import json
 import sys
 
-FARMACY = 13
 
 def dijkstra(graph, source, destinations):
     # Initialize distances, previous nodes, and visited nodes
@@ -135,8 +134,7 @@ def shortest_path(graph, source):
 
     return min_distance, min_path
 
-
-def main():
+def main(destinations):
     nodes = []
 
     with open('./json/nodes.json') as json_file:
@@ -145,9 +143,8 @@ def main():
             # print(Node(node).neighbors)
             nodes.append(Node(node))
 
-    destinations = [FARMACY, 2, 35, 30]
-
-    print("Shortest path from the farmacy to the houses: 4, 48, 38:")
-    print(shortest_path(abstract_graph(nodes, destinations), FARMACY))
-
-main()
+    farmacy = destinations[0]
+    # print(destinations)
+    # print(f"Shortest path from the farmacy to the houses: {destinations[1:]}")
+    # print(shortest_path(abstract_graph(nodes, destinations), farmacy))
+    return shortest_path(abstract_graph(nodes, destinations), farmacy)
