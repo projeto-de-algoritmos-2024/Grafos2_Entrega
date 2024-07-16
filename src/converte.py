@@ -2,6 +2,24 @@ from json import dump
 from constantes import mapa
 from copy import deepcopy
 
+titulo = 'PERCURSO'
+farmacia = '23'
+largura_rua = 5
+tamanho_casa = 50
+colunas = 17
+linhas = 7
+casas_por_linha = 3
+casas_por_coluna = 2
+largura_quadra = (casas_por_linha * (tamanho_casa))
+altura_quadra = (casas_por_coluna * (tamanho_casa))
+largura_jogo = colunas * (tamanho_casa)
+largura_tela = largura_jogo + 500
+altura_tela = linhas * tamanho_casa
+alinhamento_lateral = largura_jogo + 20
+posicao_botao_buscar = 60
+largura_botao = 90
+altura_botao = 30
+
 nodes = []
 node_count = 1
 node_positions = {}

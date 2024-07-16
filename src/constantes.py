@@ -1,20 +1,20 @@
-titulo = 'PERCURSO'
-farmacia = '23'
-largura_rua = 5
-tamanho_casa = 50
-colunas = 17
-linhas = 7
-casas_por_linha = 3
-casas_por_coluna = 2
-largura_quadra = (casas_por_linha * (tamanho_casa))
-altura_quadra = (casas_por_coluna * (tamanho_casa))
-largura_jogo = colunas * (tamanho_casa)
-largura_tela = largura_jogo + 500
-altura_tela = linhas * tamanho_casa
-alinhamento_lateral = largura_jogo + 20
-posicao_botao_buscar = 60
-largura_botao = 90
-altura_botao = 30
+# titulo = 'PERCURSO'
+# farmacia = '23'
+# largura_rua = 5
+# tamanho_casa = 50
+# colunas = 17
+# linhas = 7
+# casas_por_linha = 3
+# casas_por_coluna = 2
+# largura_quadra = (casas_por_linha * (tamanho_casa))
+# altura_quadra = (casas_por_coluna * (tamanho_casa))
+# largura_jogo = colunas * (tamanho_casa)
+# largura_tela = largura_jogo + 500
+# altura_tela = linhas * tamanho_casa
+# alinhamento_lateral = largura_jogo + 20
+# posicao_botao_buscar = 60
+# largura_botao = 90
+# altura_botao = 30
 
 # Cores
 BRANCO = (255, 255, 255)
@@ -28,8 +28,9 @@ VERMELHO = (255, 0, 0)
 AZUL = (79, 144, 242)
 PRETO = (0, 0, 0)
 
+FARMACY = 13
 
-mapa = [
+map = [
     ['rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh'],
     ['rv', '1', '2', '3', 'rv', '4', '5', '6', 'rv', '7', '8', '9', 'rv', '10', '11', '12', 'rv'],
     ['rv', '13', '14', '15', 'rv', '16', '17', '18', 'rv', '19', '20', '21', 'rv', '22', '23', '24', 'rv'],
@@ -38,3 +39,54 @@ mapa = [
     ['rv', '37', '38', '39', 'rv', '40', '41', '42', 'rv', '43', '44', '45', 'rv', '46', '47', '48', 'rv'],
     ['rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh', 'rh']
 ]
+
+
+mapa = {
+    1: [300, 30], 
+    2: [400, 30], 
+    3: [494, 30], 
+    4: [665, 30], 
+    5: [760, 30], 
+    6: [856, 30], 
+    7: [300, 180], 
+    8: [400, 180], 
+    9: [494, 180], 
+    10: [665, 180], 
+    11: [760, 180], 
+    12: [856, 180], 
+    13: [300, 266], 
+    14: [400, 266], 
+    16: [665, 266], 
+    17: [760, 266], 
+    18: [856, 266],
+    19: [300, 406],
+    20: [400, 406],
+    21: [494, 406],
+    22: [665, 406],
+    23: [760, 406],
+    24: [856, 406],
+    25: [300, 494],
+    26: [400, 494],
+    27: [494, 494],
+    28: [665, 494],
+    29: [760, 494],
+    30: [856, 494],
+    31: [300, 639],
+    32: [400, 639],
+    33: [494, 639],
+    34: [665, 639],
+    35: [760, 639],
+    36: [856, 639],
+    37: [300, 724],
+    38: [400, 724],
+    39: [494, 724],
+    40: [665, 724],
+    41: [760, 724],
+    42: [856, 724],
+    43: [300, 864],
+    44: [400, 864],
+    45: [494, 864],
+    46: [665, 864],
+    47: [760, 864],
+    48: [856, 864]
+}
