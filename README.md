@@ -13,23 +13,49 @@
 
 **Ideia proposta**
 
-Dentro de um contexto de uma farmácia que precisa entregar uma quantidade variável de medicamentos dentro de um mapa inserido pelo usuário, que seria a área de entrega da farmácia. O objetivo desse algoritmo é otimizar a entrega dos medicamentos, ou seja, entregando os medicamentos a partir da farmácia e voltando percorrendo a menor distância possível.
+Dentro de um contexto de uma farmácia que precisa entregar uma quantidade variável de medicamentos dentro de um mapa, que seria a área de entrega da farmácia. O objetivo desse algoritmo é otimizar a entrega dos medicamentos, ou seja, entregando os medicamentos a partir da farmácia e voltando percorrendo a menor distância possível.
 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Etapa de seleção de casas
+
+![alt text](img/image.png)
+
+### Jogo em funcionamento
+
+![alt text](img/image-1.png)
+
+### Jogo finalizado
+
+![alt text](img/image-2.png)
+
 
 ## Instalação 
-**Linguagem**: Python (visualização), C++ (cálculo de menor caminho) <br>
+**Linguagem**: Python (visualização e cálculo)<br>
 **Framework**: Pygame <br>
 
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+1. Instale o python:
+
+[Python 3.11](https://www.python.org/downloads/release/python-3119/)
+
+2. Instale o pygame:
+
+```bash
+pip install pygame==2.6.0
+```
+
+3. Execute o projeto
+```bash
+cd src
+python main.py
+```
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+
+Clique nas casas para selecioná-las.
 
 
 
