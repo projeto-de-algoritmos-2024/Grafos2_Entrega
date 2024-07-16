@@ -57,6 +57,7 @@ python main.py
 
 Clique nas casas para selecioná-las.
 
+## [Vídeo da apresentação](https://www.youtube.com/watch?v=KnnZILE9jVo)
 
 
 
